@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>University Student Registration</title>
+</head>
+<body style="background-color: white; display: flex; justify-content: center; align-items: center; height: 100vh;">
+
+    <form style="background: wheat ; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 350px; text-align: center;">
+        <h2>University Student Registration</h2>
+
+        <label for="fullname"><b>Full Name:</b></label>
+        <input type="text" id="fullname" name="fullname" required><br>
+
+        <label for="fathername"><b>Father's Name:</b></label>
+        <input type="text" id="fathername" name="fathername" required><br>
+
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="username"><b>Username:</b></label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password"><b>Password:</b></label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="phone"><b>Phone Number:</b></label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="dob"><b>Date of Birth:</b></label>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <label for="city"><b>City:</b></label>
+        <input type="text" id="city" name="city" required><br>
+
+        <label for="religion"><b>Religion:</b></label>
+        <input type="text" id="religion" name="religion" required><br>
+
+        <label for="department"><b>Department:</b></label>
+        <select id="department" name="department" required>
+            <option value="">Select Department</option>
+            <option value="cs">Computer Science</option>
+            <option value="ss">Software Engineering</option>
+            <option value="ce">Computer Engineering</option>
+            <option value="cys">Cyber Security</option>
+        </select><br>
+
+        <label for="gender"><b>Gender:</b></label>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+         
+        </select><br>
+
+        <input type="submit" value="Register" style="background-color: green; color: white; border: none; padding: 8px; cursor: pointer; margin-top: 10px;">
+    </form>
+
+</body>
+</html>
