@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Form</title>
+</head>
+<body style="background-color: white; display: flex; justify-content: center; align-items: center; height: 100vh;">
+
+    <form style="background: skyblue; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 300px; text-align: center;">
+        <label for="fname"><b>First Name: </b></label>
+        <input type="text" id="fname" name="fname" required><br>
+
+        <label for="lname"><b>Last Name: </b></label>
+        <input type="text" id="lname" name="lname" required><br>
+
+        <label for="city"><b>City: </b></label>
+        <input type="text" id="city" name="city" value="Your City" readonly required><br>
+
+        <label for="zip"> <b>Zip Code: </b></label>
+        <input type="text" id="zip" name="zip" maxlength="4" required><br>
+
+        <label for="dob"> <b>Date of Birth:  </b></label>
+        <input type="date" id="dob" name="dob" required><br>
+
+        <input type="submit" value="Submit" style="background-color: #28a745; color: white; border: none; padding: 8px; cursor: pointer; margin-top: 10px;">
+    </form>
+
+</body>
+</html>
